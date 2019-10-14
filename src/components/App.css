@@ -1,0 +1,107 @@
+.logo {
+  width: 70px;
+  height: 40px;
+}
+.error-message {
+  background-color: #ff7272;
+  color: white;
+  padding: 1em;
+}
+.login-form {
+  width: 340px;
+  margin: 50px auto;
+}
+.login-form form {
+  margin-bottom: 15px;
+  background: #f7f7f7;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+.login-form h2 {
+  margin: 0 0 15px;
+}
+.form-control,
+.btn {
+  min-height: 38px;
+  border-radius: 2px;
+}
+.btn {
+  font-size: 15px;
+  font-weight: bold;
+}
+.assignment-form,
+.student-form {
+  width: 100%;
+  margin: 10px;
+  border: 0.5px solid darkgray;
+  background: #f2f2f2;
+  padding: 20px;
+}
+.filterpanel {
+  width: 100%;
+  margin: 10px;
+  padding: 20px;
+}
+.assignment {
+  margin: 10px;
+}
+.score {
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+.noscore {
+  font-size: 12px;
+  color: grey;
+}
+.buttonPanel {
+  padding: 10px 0px 0px 0px;
+}
+.scorebox {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.projectLink {
+  text-decoration: underline !important;
+}
+.saveAssignment {
+  width: 100% !important;
+}
+.menuLink {
+  text-decoration: underline !important;
+  cursor: pointer !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.grade_greater90 {
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+.grade_greater80 {
+  font-size: 12px;
+  font-weight: bold;
+  color: blue;
+}
+.grade_greater50 {
+  font-size: 12px;
+  font-weight: bold;
+  color: purple;
+}
+.grade_less50 {
+  font-size: 12px;
+  font-weight: bold;
+  color: red;
+}
+.buttonlink {
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  /*optional*/
+  font-family: arial, sans-serif;
+  /*input has OS specific font-family*/
+  color: #069;
+  text-decoration: underline;
+  cursor: pointer;
+}
