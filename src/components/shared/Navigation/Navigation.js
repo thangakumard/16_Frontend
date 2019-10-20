@@ -1,7 +1,7 @@
 import React from "react";
 
 import AdminLinks from "./Navigation.AdminLinks";
-import StudentLinks from "./Navigation.StudentLinks";
+import StudentLinks from "./Navigation.AuthenticatedLinks";
 
 import UnauthenticatedLinks from "./Navigation.UnauthenticatedLinks";
 

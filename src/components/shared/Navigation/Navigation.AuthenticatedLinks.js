@@ -3,7 +3,7 @@ import { withRouter } from "react-router";
 import { Link } from "react-router-dom";
 import * as storage from "../../../helpers/local-storage";
 
-const StudentLinks = () => {
+const AuthenticatedLinks = () => {
   const getUserName = () => {
     return storage.getUserInfo().userName;
   };
@@ -22,14 +22,19 @@ const StudentLinks = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link menuLink" to={`/students`}>
-              All Students
+            <Link className="nav-link menuLink" to={`/finance`}>
+              Finance
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link menuLink" to={`/createassignments`}>
-              Create New Assignment
+            <Link className="nav-link menuLink" to={`/timesheet`}>
+              Timesheet
             </Link>
+          </li>
+          <li className="nav-item">
+            <button className="btn btn-link menuLink">
+              Dairy
+            </button>
           </li>
           <li className="nav-item">
             <button className="btn btn-link menuLink" onClick={logout}>
@@ -42,4 +47,4 @@ const StudentLinks = () => {
     </div>
   );
 };
-export default withRouter(StudentLinks);
+export default withRouter(AuthenticatedLinks);

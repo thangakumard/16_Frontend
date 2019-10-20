@@ -7,6 +7,7 @@ import PageError from "./shared/PageError";
 
 import * as storage from "../helpers/local-storage";
 import LoginForm from "./auth/LoginForm";
+import Dashboard from "./Dashboard/Dashboard";
 
 class App extends React.Component {
   constructor() {
@@ -87,7 +88,7 @@ class App extends React.Component {
       <React.Fragment>
         {isLoggedIn ? (
           
-            <di>Logged In</di>
+            <Dashboard></Dashboard>
           
         ) : (
           <React.Fragment>
